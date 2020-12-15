@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/action4"
+    android:id="@+id/layoutBack"
+    tools:context="Action4">
+
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 길을 잃어버렸어요. 설상가상 베터리도 없네요…당신이 한 행동은?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="35dp" />/>
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(1) 앉아서 눈물부터 닦는다  "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(2) 주변에 전화를 빌릴만한 곳을 찾는다 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(3) 대로변으로 나와 히치하이킹을 시도한다 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(4) 발길이 닿는대로 걸어간다 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+</LinearLayout>

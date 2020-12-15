@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rom_A3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="당신의 결과는?"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="당신은 이성적이고 계획적이며 분석적인 사람이에요. 물론 사랑에 관심은 있지만, 로맨스는 그저 영화일 뿐이라고 생각하는 당신에게도 로맨스 영화 같은 일들이 일어날 수 있어요! "
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="이런 당신에게 영화 ‘어바웃 타임’을 추천할게요! 이 영화는 미래에서 자신의 과거를 변경할 수 있는 시간 여행이 가능한 남자가 첫눈에 반한 여자와의 완벽한 사랑을 이루기 위해 시간여행을 하는 이야기예요. 판타지적 요소가 담긴 로맨스를 즐길 수 있고, 진정한 행복이 무엇인지 느낄 수 있답니다."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/action2"
+    android:id="@+id/layoutBack"
+    tools:context="Action2">
+
+    <TextView
+    android:id="@+id/Question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2. 눈을 떴더니 대입 원서 접수날로 돌아갔다. 미래를 다시 고를 수 있는 기회! 당신의 선택은?"
+    android:textSize="35dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(1) 더 좋은 결과는 안나올거야… 안정적으로 넣자 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(2) 조금 더 내 가능성을 높이 볼까? 상향지원한다 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(3) 이왕 하는거 후회로 남기지 않겠어. 성적에 상관없이 원하는 과를 지원한다. "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(4) 인생 뭐있어~ 일단 젊음을 누려보자! 어디과도 지원하지 않는다"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+</LinearLayout>

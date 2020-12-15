@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hor_A4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="당신의 결과는?"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="당신은 평소에 불안함을 많이 느끼며 지나치게 걱정을 하는 경향이 있습니다. 밤에 혼자 걸어가면서도 지나친 걱정을 하는 당신은 사소한 일에도 놀라고는 합니다. 이러한 성격으로 공포 영화와는 거리가 멉니다."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="그런 당신에게 공포 영화이지만 코믹적인 요소도 있는 영화 '해피데스데이'를 추천합니다. 이 영화는 생일날 반복되는 죽음이라는 특별한 선물을 받은 여대생의 끝나지 않는 파티라는 내용을 담고 있습니다. 반복되는 죽음 속에 주인공은 어떤 방식으로 사건을 해결할 지를 생각하며 보신다면 더 재미있게 보실 수 있을 거예요. 이 영화를 계기로 공포 영화도 입문하고 두려움도 조금 떨쳐낼 수 있다면 좋겠네요"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

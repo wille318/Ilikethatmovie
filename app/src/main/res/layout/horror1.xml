@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Horror1"
+    android:id="@+id/layoutBack"
+    android:background="@drawable/horror">
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 평소 본인의 성격은 어떤 편인가요??"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(1) 겁이 많으며 민감하다."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(2) 부드럽고 사교적이다."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(3) 장난끼가 많으며 활동적이다."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(4) 생각이 많으며 침착하다."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+</LinearLayout>

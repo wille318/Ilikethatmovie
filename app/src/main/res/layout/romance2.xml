@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutBack"
+    android:background="@drawable/romance2"
+    tools:context=".Romance2">
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 평화로운 오후 주말, 갑자기 로맨스 영화가 보고 싶습니다.
+당신은 어떤 내용의 영화를 시청할까요?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(1) 풋풋한 첫사랑의 추억을 담은 영화"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(2) 사랑의 시작과 이별을 그린 영화"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(3) 고백 그리고 결혼까지 그린 영화"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(4) 여러 커플들의 로맨스를 그린 영화"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+</LinearLayout>

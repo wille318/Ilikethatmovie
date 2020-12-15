@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Ani_A4">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="당신의 결과는?"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="당신은 어렸을 적 순수했던 그 시절을 그리워하고 있습니다. 점점 성숙지는 과정에서 신경써야 할 부분들이 많아지고 그러한 걱정이 없던 어린 시절이 좋았다는 생각을 종종 하실 거예요. "
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="그런 당신에게 남미의 사후세계 바탕의 영화 ‘코코’를 추천합니다!! 이 영화는 뮤지션을 꿈꾸는 소년 미구엘이 전설적인 가수 에르네스토의 기타에 손을 대자 ‘죽은 자들의 세상’에 들어가게 되고 그 곳에서 하는 경험들을 중심으로 이야기가 진행됩니다. 멕시코가 배경인 만큼 영화에서 나오는 문화들을 알고 본다면 더 재미있는 감상을 하실 수 있을 거예요. 이 영화를 관람하시면서 순수했던 그 시절로 돌아가 좋은 감정들을 느끼셨으면 좋겠습니다!!"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

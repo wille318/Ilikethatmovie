@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opening_no"
+    android:orientation="vertical"
+    tools:context=".Opening">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="216dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal|center"
+        android:hint="이름을 입력해주세요."
+        android:textColorHint="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/gen_ques"
+        android:layout_width="401dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:ems="12"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="좋아하는 장르를 선택해주세요."
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/gen_ac"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="액션" />
+
+    <Button
+        android:id="@+id/gen_lo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="로맨스" />
+
+    <Button
+        android:id="@+id/gen_ho"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="공포" />
+
+    <Button
+        android:id="@+id/gen_ani"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="애니메이션" />
+
+</LinearLayout>

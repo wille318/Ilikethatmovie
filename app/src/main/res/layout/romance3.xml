@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutBack"
+    android:background="@drawable/romance3"
+    tools:context=".Romance3">
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. 연인과 카페를 왔다. 무슨 디저트를 시키겠습니까?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(1) 녹차 케이크"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(2) 브라우니"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(3) 티라미수"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+
+    <Button
+        android:id="@+id/Answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="10dp"
+        android:text="(4) 허니 브레드"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#40FFFFFF"
+        app:elevation="2dp" />
+</LinearLayout>

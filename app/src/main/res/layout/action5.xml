@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Action5"
+    android:background="#000000">>
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 결과 값"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/Answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetTop="50dp"
+        android:layout_margin="8dp"
+        android:background="@color/teal_700"
+        android:text="눌러서 결과 보기"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:backgroundTint="#00FF0000"
+        app:elevation="2dp" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text=""/>
+</LinearLayout>

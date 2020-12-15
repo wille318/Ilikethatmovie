@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Act_A1" >
+
+
+<ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="당신의 결과는?"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="당신은 선택의 기로에서 금방 답을 찾아내곤 해요. 남보다는 나를 통해 내가 무엇을 해야하는지 어느정도 알고 있죠. 또 자신의 선택을 믿고, 굳건하게 나아가지만 그 길이 항상 맞는 것은 아니었을 거에요. "
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="그런 당신에게 '어브덕션'을 추천할게요. 지금까지 살아온 모든 삶이 알던 것과 다름을 알게 된 주인공이 자신의 삶을 찾아가는 내용이에요. 도시 추격전이 다수 등장하는데 당신이라면 좋아할 것 같아요. 당신도 당신이 무엇을 좋아하는지, 어떤 곳에서 자신감이 있는지 다시한번 생각해보는 계기가 되었으면 좋겠어요"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

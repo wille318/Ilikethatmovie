@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hor_A3"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="당신의 결과는?"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="당신은 두려움을 극복하기 위해 노력하는 성격을 지니고 있습니다. 두렵더라도 포지하지 않고 일을 끝까지 마무리 짓기 위해 노력하곤 합니다. "
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="그런 당신에게 영화 '알 포인트'를 추천합니다!! 이 영화는 베트남 전쟁 중 '로미오 포인트'에서 사망한 것으로 추정되는 수색대원들로부터 계속적인 구조요청이 오고 있다는 내용을 다루고 있습니다. 2004년도에 개봉한 영화 임에도 불구하고 공포 영화를 추천해 달라고 하면 지금도 자주 거론되는 영화로 공포 영화를 잘 보는 편이 아니시더라도 한 번 도전해본다면 좋을 것 같습니다."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
